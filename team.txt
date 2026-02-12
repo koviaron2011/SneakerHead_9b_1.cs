@@ -1,0 +1,7 @@
+4 fős csapat esetén
+Cég neve: Csaba Kft.
+Választott téma: SNEAKER HEAD
+Vezető fejlesztő: Kovács Áron
+Dizájner: Alföldi Szabolcs
+Tartalomfelelős: Mihalik Áron
+Minőségellenőr: Kerényi Noel Botond
