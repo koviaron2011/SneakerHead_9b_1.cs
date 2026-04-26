@@ -1,0 +1,91 @@
+css
+body, .container{
+  background-color: #c4c3be !important;
+  color: #203b4e;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #c4c3be;
+  padding: 10px;
+}
+
+h1, h2 {
+  color: #203b4e;
+  margin-bottom: 20px;
+}
+
+p, li {
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-bottom: 20px;
+}
+
+
+
+.jumbotron h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #98b3c0;
+}
+
+.jumbotron p {
+  font-size: 24px;
+
+}
+
+.feature-item {
+  margin-bottom: 30px;
+}
+#suggestionList {
+  position: absolute;
+  top: 100%;
+  width:fit-content;
+  right: 100px;
+  z-index: 9999;
+
+}
+
+.feature-item img  {
+  border-radius: 10px;
+
+}
+
+.feature-item h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: ;
+}
+
+.footer {
+  background-color: #203b4e;
+  color: #f0b412;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.c1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #f0b412;
+    background-color: rgba(255, 255, 255, 0.5);;
+}
+.c2{
+  color: #f0b412 !important;
+}
+.c{
+  transition: transform 0.5s;
+}
+.c:hover{
+  transform: scale(3);
+}
+
+
