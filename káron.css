@@ -1,96 +1,68 @@
-css
-body, .container{
-  background-color: #c4c3be !important;
-  color: #203b4e;
-  font-family: Arial, sans-serif;
+body {
+	
+	height: 400px;
+	background-color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
-  background-color: #c4c3be;
-  padding: 10px;
+#fejlec {
+	width: 100%;
+	
 }
 
-h1, h2 {
-  color: #203b4e;
-  margin-bottom: 20px;
+#felirat {
+	top: 0;
+    right: 9vh;
+    font-size: 3vw;
+    position: absolute;
+    text-align: right;
+    color:black;
+	text-shadow: 5px 5px 10px rgb(255, 200, 47);
+    width: 100%;
+	font-variant: small-caps;
 }
 
-p, li {
-  line-height: 1.6;
-  text-align: justify;
-  text-justify: inter-word;
-  padding-bottom: 20px;
+#főcím {
+	text-shadow: 5px 5px 10px rgb(255, 200, 47);
 }
 
-
-
-.jumbotron h1 {
-  font-size: 38px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #98b3c0;
+h3 {
+	color: black;
+	text-shadow: 5px 5px 10px rgb(255, 200, 47);
+	font-variant: small-caps;
+	font-size: 1em;
+	font-weight: 250%;
 }
 
-.jumbotron p {
-  font-size: 24px;
-
+.hobbi {
+	
+	border: 2px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:rgb(255,242,207 );
 }
 
-.feature-item {
-  margin-bottom: 30px;
-}
-#suggestionList {
-  position: absolute;
-  top: 100%;
-  width:fit-content;
-  right: 100px;
-  z-index: 9999;
-
+.lablec {
+	background-color: rgb(255,242,207);
+	
 }
 
-.feature-item img  {
-  border-radius: 10px;
-
+.lablec a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	
 }
 
-.feature-item h3 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 20px;
-  color: ;
+.lablec a:hover {
+	text-transform: uppercase;
 }
 
-.footer {
-  background-color: #203b4e;
-  color: #f0b412;
-  padding: 20px;
-  text-align: center;
+.navbar {
+	font-variant: small-caps;
+	font-size: 1.2em;
+	margin-left: 0;
 }
-
-.footer p {
-  margin-bottom: 0;
+p{
+	font-style:normal ;
 }
-
-.c1{
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    color: #f0b412;
-    background-color: rgba(255, 255, 255, 0.5);;
-}
-.c2{
-  color: #f0b412 !important;
-}
-.c{
-  transition: transform 0.5s;
-}
-.c:hover{
-  transform: scale(3);
-}
-.puma{
-  max-height: 40%;
-}
-
-
-
 
