@@ -3,6 +3,7 @@ body {
 	height: 400px;
 	background-color: white;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: url();
 }
 
 #fejlec {
@@ -17,18 +18,18 @@ body {
     position: absolute;
     text-align: right;
     color:black;
-	text-shadow: 5px 5px 10px rgb(255, 200, 47);
+	text-shadow: 5px 5px 10px rgb(black);
     width: 100%;
 	font-variant: small-caps;
 }
 
 #főcím {
-	text-shadow: 5px 5px 10px rgb(255, 200, 47);
+	text-shadow: 5px 5px 10px rgb(192,121,123);
 }
 
 h3 {
 	color: black;
-	text-shadow: 5px 5px 10px rgb(255, 200, 47);
+	text-shadow: 5px 5px 10px rgb(0,0,0,);
 	font-variant: small-caps;
 	font-size: 1em;
 	font-weight: 250%;
@@ -38,12 +39,7 @@ h3 {
 	
 	border: 2px solid black;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color:rgb(255,242,207 );
-}
-
-.lablec {
-	background-color: rgb(255,242,207);
-	
+	background-color:rgb(255,255,255);
 }
 
 .lablec a {
@@ -65,4 +61,3 @@ h3 {
 p{
 	font-style:normal ;
 }
-
