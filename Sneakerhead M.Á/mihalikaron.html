@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Csaba Kft. — Mihalika</title>
+  <link rel="stylesheet" href="modern.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">Csaba <span>Kft.</span></a>
+      <div class="header-actions">
+        <nav>
+          <ul class="nav">
+            <li><a href="index.html">Kezdőoldal</a></li>
+            <li><a href="karon.html">Puma</a></li>
+            <li><a href="mihalikaron.html" aria-current="page">Mihalika</a></li>
+            <li><a href="szabi.html">Szabi</a></li>
+            <li><a href="noel.html">Noel</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="cart-toggle" id="cart-toggle" aria-label="Kosár megnyitása">
+          <span class="cart-toggle-label">Kosár</span>
+          <span class="cart-count" id="cart-count" hidden>0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Kiemelt képek">
+    <div class="carousel-wrap" id="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80" alt="Nike Air Max — piros futócipő">
+        </div>
+        <div class="carousel-item">
+          <img src="./jo_kepek/slideshow-dunk-low.png" alt="Nike Dunk Low — bordó és fehér">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=1200&q=80" alt="Nike kollekció">
+        </div>
+      </div>
+      <button type="button" class="carousel-btn prev" aria-label="Előző kép">‹</button>
+      <button type="button" class="carousel-btn next" aria-label="Következő kép">›</button>
+      <div class="carousel-dots" role="tablist" aria-label="Diaváltás"></div>
+    </div>
+  </section>
+
+  <main class="main">
+    <div class="columns">
+      <!-- Bal oszlop -->
+      <div class="column">
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&q=80" alt="Nike Air Force 1">
+          </div>
+          <div class="product-body">
+            <span class="product-badge">Klasszikus</span>
+            <h2 class="product-title">Nike Air Force 1 '07</h2>
+            <p class="product-lead">Az utcai kultúra ikonja — tiszta vonalak, párnázott középtalp és időtlen fehér-fekete megjelenés.</p>
+            <ul class="product-list">
+              <li>Bőr felsőrész perforált részletekkel, hab középtalp és gumitalp a egész napos kényelemért.</li>
+              <li>Méretek: 36-tól 46-ig, normál szabás.</li>
+            </ul>
+            <p class="price-tag">39 990 Ft <small style="font-weight:400;color:var(--muted);text-decoration:line-through">44 990 Ft</small></p>
+            <button type="button" class="btn-cart btn-add-cart" data-product="Nike Air Force 1" data-price="39990">Kosárba teszem!</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80" alt="Nike Air Zoom Pegasus">
+          </div>
+          <div class="product-body">
+            <span class="product-badge">Futás</span>
+            <h2 class="product-title">Nike Air Zoom Pegasus 41</h2>
+            <p class="product-lead">Könnyű, rugalmas és megbízható — a Pegasus generációk óta a mindennapi futók kedvence.</p>
+            <ul class="product-list">
+              <li>React hab + Zoom Air egység a lágy landolásért és energikus elindulásért.</li>
+              <li>Méretek: 37-től 45-ös méretig.</li>
+            </ul>
+            <p class="price-tag">49 990 Ft</p>
+            <button type="button" class="btn-cart btn-add-cart" data-product="Nike Pegasus 41" data-price="49990">Kosárba teszem!</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="./jo_kepek/nike-dunk-low.png" alt="Nike Dunk Low — bordó és fehér">
+          </div>
+          <div class="product-body">
+            <span class="product-badge">Lifestyle</span>
+            <h2 class="product-title">Nike Dunk Low</h2>
+            <p class="product-lead">Kosárlabdás örökség, mai utcai stílussal — színes panelek, alacsony sziluett, minden outfithoz.</p>
+            <ul class="product-list">
+              <li>Bőr és szintetikus felsőrész, párnázott nyelv és ikonikus oldalsó Swoosh.</li>
+              <li>Méretek: 36-tól 45-ös méretig, korlátozott színek.</li>
+            </ul>
+            <p class="price-tag">42 990 Ft</p>
+            <button type="button" class="btn-cart btn-add-cart" data-product="Nike Dunk Low" data-price="42990" data-image="./jo_kepek/nike-dunk-low.png">Kosárba teszem!</button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Középső oszlop -->
+      <div class="column">
+        <article class="product-card featured story-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800&q=80" alt="Nike Air Max 90">
+          </div>
+          <div class="product-body">
+            <p class="product-title">Csaba Kft. válogatás</p>
+            <h2 class="product-title story-title">Tudtad?</h2>
+            <p class="story-text">1987-ben Tinker Hatfield bemutatta az első látható Air egységgel rendelkező cipőt — az Air Max 90-at. A „Infrared” színvilág és a Waffle talp azóta is visszatérő ikon a Nike történetében.</p>
+            <p class="story-text lead">Érezd a látható párnázást és a retro-futurisztikus stílust a Nike Air Max 90 modellben!</p>
+            <ul class="product-list">
+              <li>Klasszikus hálós és bőr felsőrész, Max Air talpbetét és tartós gumitalp.</li>
+              <li>Méretek: 36-tól 46-os méretig.</li>
+            </ul>
+            <p class="price-tag">54 990 Ft</p>
+            <button type="button" class="btn-cart btn-add-cart" data-product="Nike Air Max 90" data-price="54990">Kosárba teszem!</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="./jo_kepek/pegasus-trail-5.png" alt="Nike Pegasus Trail 5 — fekete-narancs terepcipő">
+          </div>
+          <div class="product-body">
+            <span class="product-badge">Terep</span>
+            <h2 class="product-title">Nike Pegasus Trail 5</h2>
+            <p class="product-lead">Városból az erdőbe — tapadó talp, védett orr és vízelvezető anyagok a biztos lépésekért.</p>
+            <ul class="product-list">
+              <li>Rock plate és mély barázdák, React hab a hosszú távok kényelméhez.</li>
+              <li>Méretek: 39-től 47-es méretig.</li>
+            </ul>
+            <p class="price-tag">52 990 Ft</p>
+            <button type="button" class="btn-cart btn-add-cart" data-product="Nike Pegasus Trail 5" data-price="52990" data-image="./jo_kepek/pegasus-trail-5.png">Kosárba teszem!</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800&q=80" alt="Nike Revolution 7">
+          </div>
+          <div class="product-body">
+            <span class="product-badge">Belépő futás</span>
+            <h2 class="product-title">Nike Revolution 7</h2>
+            <p class="product-lead">Egyszerű, könnyű és megfizethető — tökéletes első futócipő vagy mindennapi edzéshez.</p>
+            <ul class="product-list">
+              <li>Lélegző hálós felsőrész, puha hab középtalp, rugalmas gumitalp.</li>
+              <li>Méretek: 36-tól 45-ös méretig.</li>
+            </ul>
+            <p class="price-tag">24 990 Ft</p>
+            <button type="button" class="btn-cart btn-add-cart" data-product="Nike Revolution 7" data-price="24990">Kosárba teszem!</button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Jobb oszlop -->
+      <div class="column">
+        <article class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=800&q=80" alt="Nike Blazer Mid">
+          </div>
+          <div class="product-body">
+            <span class="product-badge">Utcai</span>
+            <h2 class="product-title">Nike Blazer Mid '77</h2>
+            <p class="product-lead">Kosárlabda-gyökerek, mai streetwear-rel — magas szár, klasszikus Swoosh, letisztult színek.</p>
+            <ul class="product-list">
+              <li>Bőr felsőrész, gumitalp és vulkanizált megjelenés a retró hangulatért.</li>
+              <li>Méretek: 37-től 46-os méretig.</li>
+            </ul>
+            <p class="price-tag">36 990 Ft</p>
+            <button type="button" class="btn-cart btn-add-cart" data-product="Nike Blazer Mid" data-price="36990">Kosárba teszem!</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image product-image--invisible" role="img" aria-label="Nike Invincible 3 — láthatatlan cipő, nincs kép"></div>
+          <div class="product-body">
+            <span class="product-badge">Prémium futás</span>
+            <h2 class="product-title">Nike Invincible 3</h2>
+            <p class="product-lead">Invincible = láthatatlan. A cipő megvan — csak nem látszik.</p>
+            <ul class="product-list">
+              <li>ZoomX hab, stabil keret — ha hinálnál, talán éreznéd.</li>
+              <li>Méretek: 37–46 (becslés, mert nem látszik).</li>
+            </ul>
+            <p class="price-tag">64 990 Ft</p>
+            <button type="button" class="btn-cart btn-add-cart" data-product="Nike Invincible 3" data-price="64990">Kosárba teszem!</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="./jo_kepek/air-jordan-1-low.png" alt="Air Jordan 1 Low — navy és világoskék">
+          </div>
+          <div class="product-body">
+            <span class="product-badge">Jordan</span>
+            <h2 class="product-title">Air Jordan 1 Low</h2>
+            <p class="product-lead">A legenda alacsony szárban — ikonikus színek, prémium anyagok, kosaras örökség.</p>
+            <ul class="product-list">
+              <li>Bőr felsőrész, Air-Sole egység és gumitalp; Jordan Wings logó a sarkon.</li>
+              <li>Méretek: 36-tól 46-os méretig, limitált színállás.</li>
+            </ul>
+            <p class="price-tag">58 990 Ft</p>
+            <button type="button" class="btn-cart btn-add-cart" data-product="Air Jordan 1 Low" data-price="58990" data-image="./jo_kepek/air-jordan-1-low.png">Kosárba teszem!</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <section class="subscribe" id="feliratkozas" aria-labelledby="subscribe-title">
+    <div class="subscribe-inner">
+      <h2 class="subscribe-title" id="subscribe-title">Feliratkozás</h2>
+      <p class="subscribe-lead">Értesülj elsőként az új Nike modellekről és akcióinkról.</p>
+      <form class="subscribe-form" id="subscribe-form" novalidate>
+        <div class="form-field">
+          <label for="subscribe-name">Név <span class="required" aria-hidden="true">*</span></label>
+          <input type="text" id="subscribe-name" name="name" autocomplete="name" required placeholder="Teljes neved">
+        </div>
+        <div class="form-field">
+          <label for="subscribe-email">E-mail cím <span class="required" aria-hidden="true">*</span></label>
+          <input type="email" id="subscribe-email" name="email" autocomplete="email" required placeholder="pelda@email.hu">
+        </div>
+        <p class="form-hint">A csillaggal jelölt mezők kitöltése kötelező.</p>
+        <button type="submit" class="btn-cart subscribe-btn">Feliratkozom</button>
+        <p class="subscribe-success" id="subscribe-success" hidden role="status">Köszönjük, sikeresen feliratkoztál!</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p><strong>Csaba Kft.</strong> — Mihalika · Nike kollekció · Minden ár forintban (Ft)</p>
+  </footer>
+
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-panel" id="cart-panel" aria-hidden="true" aria-labelledby="cart-title">
+    <div class="cart-panel-header">
+      <h2 id="cart-title">Kosár</h2>
+      <button type="button" class="cart-close" id="cart-close" aria-label="Kosár bezárása">×</button>
+    </div>
+    <p class="cart-empty" id="cart-empty">A kosár üres. Válassz cipőt és tedd bele!</p>
+    <ul class="cart-items" id="cart-items"></ul>
+    <div class="cart-panel-footer" id="cart-footer" hidden>
+      <p class="cart-total-row">
+        <span>Összesen:</span>
+        <strong id="cart-total">0 Ft</strong>
+      </p>
+      <button type="button" class="btn-cart cart-checkout">Rendelés leadása</button>
+      <button type="button" class="cart-clear-btn" id="cart-clear">Kosár ürítése</button>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="cart.js"></script>
+  <script>
+    (function () {
+      const carousel = document.getElementById("carousel");
+      const inner = carousel.querySelector(".carousel-inner");
+      const items = carousel.querySelectorAll(".carousel-item");
+      const dotsWrap = carousel.querySelector(".carousel-dots");
+      let index = 0;
+
+      items.forEach((_, i) => {
+        const dot = document.createElement("button");
+        dot.type = "button";
+        dot.setAttribute("aria-label", "Diák " + (i + 1));
+        if (i === 0) dot.classList.add("active");
+        dot.addEventListener("click", () => goTo(i));
+        dotsWrap.appendChild(dot);
+      });
+
+      const dots = dotsWrap.querySelectorAll("button");
+
+      function goTo(i) {
+        index = (i + items.length) % items.length;
+        inner.style.transform = "translateX(-" + index * 100 + "%)";
+        dots.forEach((d, j) => d.classList.toggle("active", j === index));
+      }
+
+      carousel.querySelector(".prev").addEventListener("click", () => goTo(index - 1));
+      carousel.querySelector(".next").addEventListener("click", () => goTo(index + 1));
+
+      let autoplay = setInterval(() => goTo(index + 1), 5000);
+      carousel.addEventListener("mouseenter", () => clearInterval(autoplay));
+      carousel.addEventListener("mouseleave", () => {
+        autoplay = setInterval(() => goTo(index + 1), 5000);
+      });
+
+      const toast = document.getElementById("toast");
+      let toastTimer;
+
+      const subscribeForm = document.getElementById("subscribe-form");
+      const subscribeSuccess = document.getElementById("subscribe-success");
+
+      subscribeForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        if (!subscribeForm.checkValidity()) {
+          subscribeForm.reportValidity();
+          return;
+        }
+        const userName = document.getElementById("subscribe-name").value.trim();
+        subscribeSuccess.hidden = false;
+        toast.textContent = "Köszönjük, " + userName + "! Sikeres feliratkozás.";
+        toast.classList.add("show");
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => toast.classList.remove("show"), 3200);
+        subscribeForm.reset();
+      });
+    })();
+  </script>
+</body>
+</html>
