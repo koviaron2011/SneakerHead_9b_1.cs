@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Csaba Kft. – Cipőbolt</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="fejlec-sav">
+    <header class="fejlec">
+      <nav class="nav" aria-label="Főmenü">
+        <a href="/index.html">Kezdőoldal</a>
+        <a href="/karon.html">Puma</a>
+        <a href="/Sneakerhead M.Á/mihalikaron.html">Mihaluk</a>
+        <a href="/Szabi/szabi.html">Nike</a>
+        <a href="/noel.html">Noel</a>
+      </nav>
+        </div>
+        <div class="fejlec-kozep">
+          <p class="fejlec-cim">Csaba Kft.</p>
+          <p class="fejlec-alcim">Cipőbolt és webshop</p>
+        </div>
+        <button type="button" class="kosar-ikon" id="kosar-ikon" aria-label="Kosár megnyitása" title="Kosár">
+          <svg class="kosar-ikon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 7h15l-1.5 9h-12L6 7z" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/>
+            <path d="M6 7L5 3H2" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="9.5" cy="19" r="1.25" fill="currentColor"/>
+            <circle cx="17.5" cy="19" r="1.25" fill="currentColor"/>
+          </svg>
+          <span class="kosar-jelzo" id="kosar-jelzo" hidden>0</span>
+        </button>
+      </div>
+    </header>
+  </div>
+
+  <section class="akcio-slider" id="akcio" aria-label="Akciós cipők">
+    <p class="akcio-fejcim">Akciós ajánlatok</p>
+    <div class="akcio-slider-doboz">
+      <button type="button" class="akcio-nyil akcio-nyil--bal" aria-label="Előző kép">‹</button>
+      <div class="akcio-slide-keret">
+        <div class="akcio-slide aktiv">
+          <span class="akcio-cimke">Akció</span>
+          <img src="images/akcio-airmax-feher.png" alt="Nike Air Max fehér – akció">
+          <span class="akcio-slide-szoveg">Air Max fehér – készletkisöprés</span>
+        </div>
+        <div class="akcio-slide">
+          <span class="akcio-cimke">Akció</span>
+          <img src="images/akcio-airmax-feher-kek.png" alt="Nike Air Max fehér és kék">
+          <span class="akcio-slide-szoveg">Air Max fehér / kék</span>
+        </div>
+        <div class="akcio-slide">
+          <span class="akcio-cimke">Akció</span>
+          <img src="images/akcio-airmax-kek-2.png" alt="Nike Air Max kék">
+          <span class="akcio-slide-szoveg">Air Max kék</span>
+        </div>
+        <div class="akcio-slide">
+          <span class="akcio-cimke">Akció</span>
+          <img src="images/akcio-nike-kek.png" alt="Nike cipő kék">
+          <span class="akcio-slide-szoveg">Nike – kék változat</span>
+        </div>
+        <div class="akcio-slide">
+          <span class="akcio-cimke">Akció</span>
+          <img src="images/akcio-nike-piros.png" alt="Nike cipő piros">
+          <span class="akcio-slide-szoveg">Nike – piros akció</span>
+        </div>
+      </div>
+      <button type="button" class="akcio-nyil akcio-nyil--jobb" aria-label="Következő kép">›</button>
+    </div>
+    <div class="akcio-pontok" role="tablist" aria-label="Slideshow oldalak">
+      <button type="button" class="akcio-pont aktiv" aria-label="1. kép" aria-selected="true"></button>
+      <button type="button" class="akcio-pont" aria-label="2. kép" aria-selected="false"></button>
+      <button type="button" class="akcio-pont" aria-label="3. kép" aria-selected="false"></button>
+      <button type="button" class="akcio-pont" aria-label="4. kép" aria-selected="false"></button>
+      <button type="button" class="akcio-pont" aria-label="5. kép" aria-selected="false"></button>
+    </div>
+  </section>
+
+  <main class="tartalom" id="termekek">
+    <div class="termek-racs">
+
+      <div class="oszlop oszlop--bal">
+        <article class="termek">
+          <figure class="termek-kep">
+            <img src="images/termek-white-af1.png" alt="Nike Air Force 1 fehér" width="400" height="300">
+          </figure>
+          <div class="termek-torzs">
+            <h2>Nike Air Force 1 – fehér</h2>
+            <p>Klasszikus fehér AF1, strapabíró bőr felsőrész. Mindennapi viseletre és utcai stílusra egyaránt.</p>
+            <ul>
+              <li><strong>Anyagösszetétel:</strong> bőr felsőrész, gumitalp</li>
+              <li><strong>Méretek:</strong> 36–46</li>
+              <li class="ar-sor"><strong>Ár:</strong> 24 490 Ft</li>
+            </ul>
+            <button type="button" class="gomb">Kosárba teszem!</button>
+          </div>
+        </article>
+
+        <article class="termek">
+          <figure class="termek-kep">
+            <img src="images/termek-black-af1.png" alt="Nike Air Force 1 fekete" width="400" height="300">
+          </figure>
+          <div class="termek-torzs">
+            <h2>Nike Air Force 1 – fekete</h2>
+            <p>Fekete AF1, letisztult megjelenés. Könnyen kombinálható bármilyen outfittel.</p>
+            <ul>
+              <li><strong>Anyagösszetétel:</strong> bőr / műbőr, gumitalp</li>
+              <li><strong>Méretek:</strong> 38–45</li>
+              <li class="ar-sor"><strong>Ár:</strong> 24 990 Ft</li>
+            </ul>
+            <button type="button" class="gomb">Kosárba teszem!</button>
+          </div>
+        </article>
+
+        <article class="termek">
+          <figure class="termek-kep">
+            <img src="images/termek-airmax-feher.png" alt="Nike Air Max fehér" width="400" height="300">
+          </figure>
+          <div class="termek-torzs">
+            <h2>Nike Air Max – fehér</h2>
+            <p>Látható párnázás, kényelmes talp. A fehér Air Max az egyik legkeresettebb modellünk.</p>
+            <ul>
+              <li><strong>Anyagösszetétel:</strong> mesh és műbőr</li>
+              <li><strong>Méretek:</strong> 37–44</li>
+              <li class="ar-sor"><strong>Ár:</strong> 27 490 Ft</li>
+            </ul>
+            <button type="button" class="gomb">Kosárba teszem!</button>
+          </div>
+        </article>
+      </div>
+
+      <div class="oszlop oszlop--kozep">
+        <article class="termek">
+          <figure class="termek-kep">
+            <img src="images/termek-nike-fekete-feher.png" alt="Nike cipő fekete fehér" width="400" height="300">
+          </figure>
+          <div class="termek-torzs">
+            <h2>Nike – fekete / fehér</h2>
+            <p>Sportos sneaker kontrasztos fekete-fehér színvilággal. Edzéshez és hétköznapra is jó választás.</p>
+            <ul>
+              <li><strong>Anyagösszetétel:</strong> textil, TPR talp</li>
+              <li><strong>Méretek:</strong> 39–47</li>
+              <li class="ar-sor"><strong>Ár:</strong> 15 990 Ft</li>
+            </ul>
+            <button type="button" class="gomb">Kosárba teszem!</button>
+          </div>
+        </article>
+
+        <article class="termek">
+          <figure class="termek-kep">
+            <img src="images/termek-white-af1.png" alt="Nike Air Force 1 fehér női" width="400" height="300">
+          </figure>
+          <div class="termek-torzs">
+            <h2>Nike Air Force 1 – fehér (női)</h2>
+            <p>Ugyanaz a megbízható AF1 minőség, női méretezéssel. Kényelmes egész napos viselet.</p>
+            <ul>
+              <li><strong>Anyagösszetétel:</strong> bőr felsőrész</li>
+              <li><strong>Méretek:</strong> 36–41</li>
+              <li class="ar-sor"><strong>Ár:</strong> 23 490 Ft</li>
+            </ul>
+            <button type="button" class="gomb">Kosárba teszem!</button>
+          </div>
+        </article>
+      </div>
+
+      <div class="oszlop oszlop--jobb">
+        <article class="termek" id="ferfi">
+          <figure class="termek-kep">
+            <img src="images/termek-black-af1.png" alt="Nike Air Force 1 fekete férfi" width="400" height="300">
+          </figure>
+          <div class="termek-torzs">
+            <h2>Nike Air Force 1 – fekete (férfi)</h2>
+            <p>Férfi méretekben elérhető fekete AF1. Tartós kialakítás, klasszikus siluett.</p>
+            <ul>
+              <li><strong>Anyagösszetétel:</strong> bőr / szintetikus</li>
+              <li><strong>Méretek:</strong> 40–47</li>
+              <li class="ar-sor"><strong>Ár:</strong> 24 990 Ft</li>
+            </ul>
+            <button type="button" class="gomb">Kosárba teszem!</button>
+          </div>
+        </article>
+
+        <article class="termek" id="noi">
+          <figure class="termek-kep">
+            <img src="images/termek-airmax-feher.png" alt="Nike Air Max fehér női" width="400" height="300">
+          </figure>
+          <div class="termek-torzs">
+            <h2>Nike Air Max – fehér (női)</h2>
+            <p>Könnyű, légies viselet női méretekben. Jól párosítható farmerrel vagy szoknyával.</p>
+            <ul>
+              <li><strong>Anyagösszetétel:</strong> mesh, párnázott talp</li>
+              <li><strong>Méretek:</strong> 36–42</li>
+              <li class="ar-sor"><strong>Ár:</strong> 26 490 Ft</li>
+            </ul>
+            <button type="button" class="gomb">Kosárba teszem!</button>
+          </div>
+        </article>
+
+        <article class="termek">
+          <figure class="termek-kep">
+            <img src="images/termek-nike-fekete-feher.png" alt="Nike lifestyle fekete fehér" width="400" height="300">
+          </figure>
+          <div class="termek-torzs">
+            <h2>Nike lifestyle – fekete / fehér</h2>
+            <p>Hétköznapi városi cipő semleges színekkel. Könnyű tisztítás, kényelmes belső.</p>
+            <ul>
+              <li><strong>Anyagösszetétel:</strong> textil, gumitalp</li>
+              <li><strong>Méretek:</strong> 36–44</li>
+              <li class="ar-sor"><strong>Ár:</strong> 12 990 Ft</li>
+            </ul>
+            <button type="button" class="gomb">Kosárba teszem!</button>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="lablec" id="kapcsolat">
+    <div class="lablec-belso">
+      <div>
+        <h2 class="lablec-marka">Csaba Kft.</h2>
+        <p class="lablec-szoveg">Stílus és kényelem egy helyen – cipőinkkel minden nap jól érzed magad. Látogass el üzletünkbe vagy rendelj online.</p>
+        <p class="lablec-copy">© 2026 Csaba Kft. Minden jog fenntartva.</p>
+      </div>
+      <form class="hirlevel" id="hirlevel-form" action="#" method="post" novalidate>
+        <h3>Iratkozz fel hírlevelünkre!</h3>
+        <label>
+          <span class="visually-hidden">Név</span>
+          <input class="hirlevel-mezo" type="text" name="nev" placeholder="A te neved" autocomplete="name">
+        </label>
+        <label>
+          <span class="visually-hidden">E-mail</span>
+          <input class="hirlevel-mezo" type="email" name="email" placeholder="E-mail címed" autocomplete="email">
+        </label>
+        <label class="hirlevel-label">
+          <input type="checkbox" name="gdpr" required>
+          <span>Elfogadom az adatkezelési tájékoztatót.</span>
+        </label>
+        <button type="submit" class="gomb gomb-sarga">Feliratkozás</button>
+      </form>
+    </div>
+  </footer>
+
+  <div class="kosar-popup" id="kosar-popup" role="dialog" aria-modal="true" aria-labelledby="kosar-popup-cim" hidden>
+    <div class="kosar-popup-hatter" data-popup-bezar></div>
+    <div class="kosar-popup-doboz">
+      <button type="button" class="kosar-popup-bezar" data-popup-bezar aria-label="Bezárás">×</button>
+      <p class="kosar-popup-ikon" aria-hidden="true">✓</p>
+      <h2 class="kosar-popup-cim" id="kosar-popup-cim">Kosárba tettük!</h2>
+      <p class="kosar-popup-termek" id="kosar-popup-nev"></p>
+      <p class="kosar-popup-ar" id="kosar-popup-ar"></p>
+      <p class="kosar-popup-szoveg">A termék hozzáadva a kosárhoz.</p>
+      <div class="kosar-popup-gombok">
+        <button type="button" class="gomb" id="kosar-popup-megtekint">Kosár megtekintése</button>
+        <button type="button" class="gomb gomb-masodlagos" data-popup-bezar>Tovább vásárolok</button>
+      </div>
+    </div>
+  </div>
+
+  <aside class="kosar-panel" id="kosar-panel" aria-label="Kosár" hidden>
+    <div class="kosar-panel-hatter" data-panel-bezar tabindex="-1"></div>
+    <div class="kosar-panel-doboz">
+      <header class="kosar-panel-fej">
+        <h2 class="kosar-panel-cim">Kosár</h2>
+        <button type="button" class="kosar-panel-bezar" data-panel-bezar aria-label="Kosár bezárása">×</button>
+      </header>
+      <div class="kosar-panel-test" id="kosar-panel-test">
+        <p class="kosar-ures" id="kosar-ures">A kosár üres. Válassz terméket és kattints a „Kosárba teszem!” gombra.</p>
+        <ul class="kosar-lista" id="kosar-lista"></ul>
+      </div>
+      <footer class="kosar-panel-lab">
+        <p class="kosar-osszeg-sor">
+          <span>Összesen:</span>
+          <strong id="kosar-osszeg">0 Ft</strong>
+        </p>
+        <button type="button" class="gomb" id="kosar-rendeles" disabled>Rendelés leadása</button>
+        <button type="button" class="gomb gomb-masodlagos gomb-kicsi" id="kosar-urites">Kosár ürítése</button>
+      </footer>
+    </div>
+  </aside>
+
+  <div class="uzenet-popup" id="rendeles-popup" role="dialog" aria-modal="true" aria-labelledby="rendeles-popup-cim" hidden>
+    <div class="uzenet-popup-hatter" data-popup-bezar></div>
+    <div class="uzenet-popup-doboz uzenet-popup-doboz--siker rendeles-popup-doboz">
+      <div class="rendeles-popup-disz" aria-hidden="true"></div>
+      <button type="button" class="kosar-popup-bezar" data-popup-bezar aria-label="Bezárás">×</button>
+      <div class="rendeles-popup-ikon" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h2 class="kosar-popup-cim rendeles-popup-cim" id="rendeles-popup-cim">Rendelés feladva!</h2>
+      <p class="rendeles-popup-azon">Rendelésszám: <strong id="rendeles-azon">—</strong></p>
+      <p class="rendeles-popup-osszeg" id="rendeles-osszeg-popup">0 Ft</p>
+      <p class="rendeles-popup-info" id="rendeles-info">0 tétel a kosárból</p>
+      <p class="kosar-popup-szoveg rendeles-popup-szoveg">Köszönjük a vásárlást! Hamarosan visszaigazoljuk e-mailben.</p>
+      <button type="button" class="gomb rendeles-popup-gomb" data-popup-bezar>Szuper, köszi!</button>
+    </div>
+  </div>
+
+  <div class="uzenet-popup" id="hirlevel-popup" role="dialog" aria-modal="true" aria-labelledby="hirlevel-popup-cim" hidden>
+    <div class="uzenet-popup-hatter" data-popup-bezar></div>
+    <div class="uzenet-popup-doboz uzenet-popup-doboz--sarga">
+      <button type="button" class="kosar-popup-bezar" data-popup-bezar aria-label="Bezárás">×</button>
+      <p class="uzenet-popup-ikon uzenet-popup-ikon--sarga" aria-hidden="true">✓</p>
+      <h2 class="kosar-popup-cim" id="hirlevel-popup-cim">Sikeres feliratkozás!</h2>
+      <p class="kosar-popup-szoveg" id="hirlevel-popup-szoveg">Hamarosan értesítünk az akciókról.</p>
+      <button type="button" class="gomb gomb-sarga" data-popup-bezar>Rendben</button>
+    </div>
+  </div>
+
+  <script src="js/slideshow.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
